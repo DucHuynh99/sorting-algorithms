@@ -34,6 +34,14 @@ public class QuickSort {
         sort(input, pivot + 1, right);
     }
 
+    /**
+     * Quick Sort
+     * Complexity: n.log(n) - n.log(n) - n^2
+     * Memory: log(n)
+     * Stable: no
+     * Method: partitioning
+     * @param input array of integer number
+     */
     public static void sort(int[] input) {
         if (input == null || input.length < 2)
             return;

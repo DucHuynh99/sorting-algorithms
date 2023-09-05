@@ -2,6 +2,14 @@ package algorithm;
 
 public class MergeSort {
 
+    /**
+     * Merge Sort
+     * Complexity: n.log(n) - n.log(n) - n.log(n)
+     * Memory: n
+     * Stable: yes
+     * Method: merging
+     * @param arr array of integer number
+     */
     public static void sort(int[] arr) {
         if (arr == null || arr.length < 2) return;
         sort(arr, 0, arr.length - 1);

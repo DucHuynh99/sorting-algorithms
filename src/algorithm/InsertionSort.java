@@ -1,6 +1,15 @@
 package algorithm;
 
 public class InsertionSort {
+
+    /**
+     * Insertion Sort
+     * Complexity: n - n^2 - n^2
+     * Memory: 1
+     * Stable: yes
+     * Method: insertion
+     * @param input array of integer number
+     */
     public static void sort(int[] input) {
         for (int i = 1; i < input.length; i++) {
             int key = input[i];

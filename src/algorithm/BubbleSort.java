@@ -2,6 +2,14 @@ package algorithm;
 
 public class BubbleSort {
 
+    /**
+     * Bubble Sort
+     * Complexity: n - n^2 - n^2
+     * Memory: 1
+     * Stable: yes
+     * Method: Exchanging
+     * @param input array of integer number
+     */
     public static void sort(int[] input) {
         for (int i = 0; i < input.length; i++) {
             for (int j = input.length - 1; j > i; j--) {

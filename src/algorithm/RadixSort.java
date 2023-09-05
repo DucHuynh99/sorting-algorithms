@@ -5,6 +5,14 @@ import java.util.ArrayList;
 public class RadixSort {
     private static final int RADIX = 10;
 
+    /**
+     * Radix Sort
+     * Complexity: n.log(n) - n.log(n) - n.log(n)
+     * Memory: n
+     * Stable: yes
+     * Method: merging
+     * @param input array of integer number
+     */
     public static void sort(int[] input) {
         ArrayList<ArrayList<Integer>> bucket = new ArrayList<>();
         for (int i = 0; i < RADIX; i++) {

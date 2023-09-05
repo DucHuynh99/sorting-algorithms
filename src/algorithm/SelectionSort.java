@@ -2,6 +2,14 @@ package algorithm;
 
 public class SelectionSort {
 
+    /**
+     * Selection Sort
+     * Complexity: n^2 - n^2 - n^2
+     * Memory: 1
+     * Stable: no
+     * Method: Selection
+     * @param input array of integer number
+     */
     public static void sort(int[] input) {
         for (int i = 0; i < input.length; i++) {
             int min_idx = i;

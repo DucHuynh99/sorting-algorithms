@@ -16,6 +16,14 @@ public class CountingSort {
         }
     }
 
+    /**
+     * Counting Sort
+     * Complexity:
+     * Memory:
+     * Stable:
+     * Method:
+     * @param input array of integer number
+     */
     public static void sort(int[] input) {
         if (input == null || input.length < 2) return;
         // Find max value
